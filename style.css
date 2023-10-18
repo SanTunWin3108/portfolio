@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-image {
+    width: 350px;
+    height: 350px;
+}
+
+.project-item {
+    height: 250px;
+}
+
+.project-image img {
+    height: 250px;
+    object-fit: fill;
+}
+
+.member-image {
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-item {
+    height: 430px;
+}
+
+@media (max-width: 1200px) {
+    .carousel-item {
+        height: 450px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .profile-image {
+        width: 280px;
+        height: 280px;
+        margin: 30px auto;
+    }
+
+    .project-item {
+        height: 280px;
+    }
+
+    .project-image img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 576px) {
+    .project-item {
+        height: auto;
+    }
+
+    .project-image img {
+        height: auto;
+        object-fit: unset;
+    }
+
+    .carousel-item {
+        height: 550px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .carousel-item {
+        height: 620px;
+    }
+    
+}
